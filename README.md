@@ -1,4 +1,7 @@
 # Contes des quatre saisons
+프랑스 영화 감독 에릭 로메르의 4계절 이야기에서 이름을 따왔다.
+
+## 기능 한 줄 설명
 
 4장의 사진을 업로드하면 Gemini AI가 기승전결 구조의 단편 스토리를 생성해주는 웹 애플리케이션입니다.
 
@@ -81,3 +84,15 @@ zip -r index.zip index.js node_modules/
 - 사진 4장 업로드 (드래그앤드롭 지원)
 - AI 기반 기승전결 스토리 자동 생성
 - 생성된 스토리 목록 조회 / 상세 보기 / 삭제
+
+1. 4장의 사진을 넣어준 후 스토리 생성하기를 누른다.
+<img width="1438" height="454" alt="스크린샷 2026-04-14 오전 10 54 57" src="https://github.com/user-attachments/assets/f0204309-aee4-404f-996f-63c9dfff90dd" />
+
+2. 조금 기다리면 스토리가 생성된 것을 확인할 수 있다.
+<img width="671" height="712" alt="스크린샷 2026-04-14 오전 10 56 08" src="https://github.com/user-attachments/assets/154ab30b-b032-4b6c-9597-2d3ce23ff0a6" />
+
+3. 아래에서 내 이야기들을 보관하고 열람할 수 있다.
+<img width="737" height="463" alt="스크린샷 2026-04-14 오전 10 56 49" src="https://github.com/user-attachments/assets/b0159d7c-6330-4a1e-bb60-c43e15388098" />
+
+
+
