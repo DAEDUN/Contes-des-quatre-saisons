@@ -5,7 +5,7 @@
 ## 아키텍처
 
 ```
-[React Client] → [Express Server (EC2)] → [AWS Lambda] → [Gemini API]
+[React Client(S3)] → [Express Server (EC2)] → [AWS Lambda] → [Gemini API]
                          ↕                      ↕
                     [RDS MySQL]            [RDS MySQL]
 ```
@@ -61,8 +61,9 @@ node server.js
 ```bash
 cd client
 npm install
-npm start        # 개발 모드 (포트 3000)
 npm run build    # 프로덕션 빌드
+aws s3 cp build your_s3 --recursive
+
 ```
 
 ### 4. Lambda 배포
